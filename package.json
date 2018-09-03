@@ -14,8 +14,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "material-design-icons-iconfont": "^3.0.3",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-i18n": "^8.1.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
