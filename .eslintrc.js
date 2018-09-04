@@ -25,6 +25,9 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
+    'comma-dangle': ['off'],
+    'indent': ['off', 2],
+    'max-len': ['off'],
     'quotes': ['error', 'single', { 
       'allowTemplateLiterals': true 
     }],

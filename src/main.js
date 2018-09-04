@@ -4,6 +4,7 @@ import 'vuetify/dist/vuetify.min.css';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import VueI18n from 'vue-i18n';
 
+import AppStore from './store/AppStore';
 import fr from './i18n/fr';
 import en from './i18n/en';
 import App from './App';
@@ -14,13 +15,13 @@ Vue.use(VueI18n);
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
-new Vue({
+export default new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>',
   i18n: new VueI18n({
-    locale: 'fr',
+    locale: AppStore.state.localization || 'fr',
     messages: { fr, en },
   }),
 });

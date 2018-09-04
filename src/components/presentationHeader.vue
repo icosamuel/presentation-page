@@ -7,6 +7,6 @@
 
 <script>
 export default {
-  name: 'header',
+  name: 'presentation-header',
 };
 </script>
