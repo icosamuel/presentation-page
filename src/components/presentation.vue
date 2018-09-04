@@ -5,8 +5,8 @@
     <presentation-header/>
 
     <!-- PARALLAX 01 -->
-    <div class="jumbotron folder">
-      <v-parallax src="/static/img/parallax_sport.png" class="jumbotron parallax-window"></v-parallax>
+    <div class="parallax-container">
+      <v-parallax src="/static/img/parallax_sport.png" class="parallax-window"></v-parallax>
     </div>
 
     <two-columns-layout>
@@ -25,8 +25,8 @@
     </two-columns-layout>
 
     <!-- PARALLAX 02 -->
-    <div class="jumbotron folder">
-      <v-parallax src="/static/img/parallax_interests.png" class="jumbotron parallax-window"></v-parallax>
+    <div class="parallax-container">
+      <v-parallax src="/static/img/parallax_interests.png" class="parallax-window"></v-parallax>
     </div>
 
     <two-columns-layout>
@@ -46,8 +46,8 @@
     </two-columns-layout>
 
     <!-- PARALLAX 03 -->
-    <div class="jumbotron folder">
-      <v-parallax src="/static/img/parallax_music.png" class="jumbotron parallax-window"></v-parallax>
+    <div class="parallax-container">
+      <v-parallax src="/static/img/parallax_music.png" class="parallax-window"></v-parallax>
     </div>
 
     <!-- FOOTER -->
@@ -66,6 +66,15 @@
 
   .parallax-window {
     height: 600px;
+  }
+
+  .elevated-row {
+    padding: 50px 0;
+  }
+
+  .elevated-row .v-card {
+    box-shadow: none;
+    background: none;
   }
 </style>
 

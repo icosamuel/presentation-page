@@ -1,5 +1,5 @@
 <template>
-  <v-layout row justify-center>
+  <v-layout row justify-center class="elevated-row">
     <v-flex xs2>
       <v-card>
         <v-card-text class="A">
@@ -8,7 +8,7 @@
       </v-card>
     </v-flex>
 
-    <v-flex xs5>
+    <v-flex xs6>
       <v-card>
         <v-card-text class="B">
           <slot name="B"/>
