@@ -15,6 +15,14 @@
 </script>
 
 <style>
+  a {
+    color: #419b46 !important;
+  }
+
+  .elevated-row .v-card, .elevated-row .theme--light.v-card {
+    box-shadow: none;
+  }
+
   .text-header {
     margin-top: 20px;
   }

@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build:
+  stage: build
+  only: [ master ]
+  script:
+    - npm i
+    - npm run docker
+  artifacts:
+    paths:
+      - dist

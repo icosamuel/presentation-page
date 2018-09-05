@@ -11,7 +11,10 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "docker": "npm run build && npm run docker:build && npm run docker:compose",
+    "docker:build": "docker build -t presentation .",
+    "docker:compose": "docker-compose up -d"
   },
   "dependencies": {
     "material-design-icons-iconfont": "^3.0.3",

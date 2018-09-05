@@ -1,0 +1,6 @@
+presentation:
+  image: 'presentation'
+  restart: always
+  ports:
+    - '8030:80'
+    - '443:443'
