@@ -2,7 +2,7 @@
   <v-toolbar dense class="status-bar">
     <v-spacer></v-spacer>
 
-    <v-menu transition="slide-y-transition" bottom left offset-y>
+    <!-- <v-menu transition="slide-y-transition" bottom left offset-y>
       <v-btn icon slot="activator">
         <v-icon>email</v-icon>
       </v-btn>
@@ -14,7 +14,7 @@
           <v-list-tile-title>copy to clipboard</v-list-tile-title>
         </v-list-tile>
       </v-list>
-    </v-menu>
+    </v-menu> -->
 
     <v-menu transition="slide-y-transition" bottom left offset-y>
       <v-btn icon slot="activator">

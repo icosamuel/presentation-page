@@ -1,4 +1,7 @@
 export default {
+  header: {
+    title: `Développeur web & aventurier`,
+  },
   whoami: {
     title: `Qui suis-je?`,
     note1: `Ayant une méthodologie de travail orienté vers les objectifs, j'aime contribuer à des projets innovateurs tout en portant plusieurs chapeaux.`,
@@ -7,7 +10,7 @@ export default {
   workExp: {
     title: `Expériences de travail`,
     sarbakan: {
-      title: `Développeur Web et R&D chez`,
+      title: `Développeur Web Full Stack et R&D chez`,
       name: `Sarbakan`,
       task1: `Maintenir et ajouter des fonctionalités sur les divers sites de l'entreprise incluant`,
       task2: `Contribuer à divers projets open source pour améliorer et personaliser les solutions logistiques implantées dans l'entreprise incluant`,

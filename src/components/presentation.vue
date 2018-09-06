@@ -11,11 +11,11 @@
 
     <two-columns-layout>
       <template slot="A">
-        <img src="/static/img/portait_begin.jpg" style="padding-top:20px;" />
+        <img src="/static/img/portait_begin.jpg" style="padding: 20px 0; width: 100%;" />
         <h3>Samuel Bégin</h3>
-        <p class="note">begs1307@gmail.com</p>
+        <p class="note"><a href="mailto:begs1307@gmail.com">begs1307@gmail.com</a></p>
 
-        <h3>{{ $t('whoami.title') }}</h3>
+        <p class="text-header"><b>{{ $t('whoami.title') }}</b></p>
         <p class="note">{{ $t('whoami.note1') }}</p>
         <p class="note">{{ $t('whoami.note2') }}</p>
       </template>

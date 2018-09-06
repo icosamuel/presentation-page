@@ -1,4 +1,7 @@
 export default {
+  header: {
+    title: `Web developer & adventurer`,
+  },
   whoami: {
     title: `Who am i?`,
     note1: `Being goal oriented, I love to contribute to innovative projects while bearing multiple responsibilities.`,
@@ -7,7 +10,7 @@ export default {
   workExp: {
     title: `Work experience`,
     sarbakan: {
-      title: `R&D and Web Developer at `,
+      title: `R&D and Full Stack Web Developer at `,
       name: `Sarbakan`,
       task1: `Maintain and develop new features on the various company websites such as`,
       task2: `Contribute to various open source projects to upgrade and customize our inhouse services such as`,

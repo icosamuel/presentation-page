@@ -1,29 +1,24 @@
 <template>
   <v-layout row justify-center class="elevated-row">
-    <v-flex xs2>
-      <v-card>
-        <v-card-text class="A">
-          <slot name="A"/>
-        </v-card-text>
-      </v-card>
+    <v-flex xs2 class="A flex-container">
+      <slot name="A"/>
     </v-flex>
 
-    <v-flex xs6>
-      <v-card>
-        <v-card-text class="B">
-          <slot name="B"/>
-        </v-card-text>
-      </v-card>
+    <v-flex xs6 class="B flex-container">
+      <slot name="B"/>
     </v-flex>
   </v-layout>
 </template>
 
 <style scoped>
 .A{
-  text-align: right;
+  text-align: justify;
 }
 .B{
   text-align: left;
+}
+.flex-container {
+  padding: 30px;
 }
 </style>
 
