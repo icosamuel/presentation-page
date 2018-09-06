@@ -51,15 +51,5 @@
         AppStore.commit('changeLocale', newLocale);
       }
     },
-    watch: {
-      locale(newLocale) {
-        this.$i18n.locale = newLocale;
-      }
-    },
-    computed: {
-      locale() {
-        return AppStore.state.localization;
-      }
-    }
   };
 </script>

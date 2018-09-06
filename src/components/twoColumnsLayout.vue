@@ -12,7 +12,7 @@
 
 <style scoped>
 .A{
-  text-align: justify;
+  text-align: left;
 }
 .B{
   text-align: left;
