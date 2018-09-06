@@ -45,7 +45,7 @@
       }
     },
     mounted() {
-      if (this.$route.query.lang) {
+      if (this.$route.query.lang && ['fr', 'en'].includes(this.$route.query.lang)) {
         AppStore.commit('changeLocale', this.$route.query.lang);
       }
     }
