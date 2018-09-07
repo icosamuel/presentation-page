@@ -16,7 +16,7 @@
       </v-list>
     </v-menu> -->
 
-    <v-menu transition="slide-y-transition" bottom left offset-y>
+    <!-- <v-menu transition="slide-y-transition" bottom left offset-y>
       <v-btn icon slot="activator">
         <v-icon>language</v-icon>
       </v-btn>
@@ -28,28 +28,28 @@
           <v-list-tile-title>english</v-list-tile-title>
         </v-list-tile>
       </v-list>
-    </v-menu>
+    </v-menu> -->
   </v-toolbar>
 </template>
 
 <style scoped>
-  .status-bar {
-    background-color: none;
-    box-shadow: none;
-    margin-bottom: 40px;
-    opacity: 0.4;
-  }
+.status-bar {
+  background-color: none;
+  box-shadow: none;
+  margin-bottom: 40px;
+  opacity: 0.4;
+}
 </style>
 
 <script>
-  import AppStore from '../store/AppStore';
+import AppStore from "../store/AppStore";
 
-  export default {
-    name: 'system-status-bar',
-    methods: {
-      changeLocale(newLocale) {
-        AppStore.commit('changeLocale', newLocale);
-      }
-    },
-  };
+export default {
+  name: "system-status-bar",
+  methods: {
+    changeLocale(newLocale) {
+      AppStore.commit("changeLocale", newLocale);
+    }
+  }
+};
 </script>
